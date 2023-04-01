@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таблица 2</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <a class="menu-navbar" href="../index.html">Главная страница</a>
+    <table class="table-2-w90p">
+      <caption>Таблица 2</caption>
+      <tr>
+        <td class="w40" colspan="2">1-2</td>
+        <!-- <td class="">2</td> -->
+        <td class="w60">3 ширина 60%</td>
+      </tr>
+      <tr>
+        <td class="w28">4</td>
+        <td class="w72" colspan="2" rowspan="2">
+          <table class="table-2-1-w80p">
+            <caption>Вложеная таблица</caption>
+            <tr>
+              <td>1</td>
+              <td rowspan="3">2-5-8 ширина 33%</td>
+              <td class="h200p" rowspan="2">3-6 высота 200px</td>
+            </tr>
+            <tr>
+              <td class="h200p" rowspan="2">4-7 высота 200px</td>
+              <!-- <td>5</td> -->
+              <!-- <td>6</td> -->
+            </tr>
+            <tr>
+              <!-- <td>7</td> -->
+              <!-- <td>8</td> -->
+              <td>9</td>
+            </tr>
+
+          </table><span>Ширина таблицы 80%</span>
+        </td>
+        <!-- <td class="">6</td> -->
+      </tr>
+      <tr>
+        <td class="w28">7</td>
+        <!-- <td class="" colspan="2">8-9</td> -->
+        <!-- <td class="">9</td> -->
+      </tr>
+    </table>
+  </div>
+
+</body>
+
+</html>

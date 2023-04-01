@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/img_1.jpg);
+  padding: 50px 0 0;
+  background-attachment: fixed;
+}
+.conteiner {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.content {
+  max-width: 1280px;
+  max-height: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.conteiner a {
+  margin-left: auto;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+  font-weight: 700;
+}
+.menu-navbar {
+  position: relative;
+  display: block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+  font-weight: 700;
+}
+.menu a {
+  position: relative;
+  display: block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+  font-weight: 700;
+}
+table {
+  max-width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 20px auto;
+}
+caption {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+td {
+  border: 2px solid rgb(0, 0, 0);
+  height: 50px;
+  width: 33.33%;
+}
+.table-1-w75p {
+  width: 75%;
+}
+.table-2-w90p {
+  width: 90%;
+}
+.table-2-1-w80p {
+  width: 80%;
+}
+.w40 {
+  width: 40%;
+}
+.w60 {
+  width: 60%;
+}
+.h200p {
+  height: 200px;
+}
+.w28 {
+  width: 28%;
+}
+.w72 {
+  width: 72%;
+}
